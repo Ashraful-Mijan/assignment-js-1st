@@ -1,5 +1,5 @@
 
-// start kilometerToMeter program:
+// start kilometerToMeter programme:
 function kilometerToMeter(kiloMeter) {
     if (kiloMeter < 0) {
         return "length does not exist negative value! Please input correct length";
@@ -14,7 +14,7 @@ var inputKiloMeter = kilometerToMeter(10);
 
 
 
-// start budgetCalculator program:
+// start budgetCalculator programme:
 function budgetCalculator(watch, phone, laptop) {
     if ((watch < 0) || (phone < 0) || (laptop < 0)) {
         return "negative item does not exist"
@@ -33,7 +33,7 @@ var inputItemNum = budgetCalculator(10, 3, 2)
 
 
 
-// start hotelCost program:
+// start hotelCost programme:
 function hotelCost(day) {
     if (day < 0) {
         return "negative day does not exist"
@@ -68,7 +68,7 @@ var inputDay = hotelCost(71)
 
 
 
-// start megaFriend program:
+// start megaFriend programme:
 function megaFriend(str) {
     var array = str;
     var result = array[0];
@@ -88,4 +88,4 @@ function megaFriend(str) {
 
 var friendList = ['jhankarmahbub', 'ashraful-mijan', 'kajol', 'mousumi'];
 var input = megaFriend(friendList);
-console.log(input);
+// console.log(input);
