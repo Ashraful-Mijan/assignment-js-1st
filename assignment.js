@@ -69,19 +69,23 @@ var inputDay = hotelCost(71)
 
 
 // start megaFriend program:
-function megaFriend(str){
+function megaFriend(str) {
     var array = str;
     var result = array[0];
-    for(i = 0; i<array.length; i++){
+    if (str.length === 0) {
+        return "empty array does not accept any query!";
+    }
+    else {
+        for (i = 0; i < array.length; i++) {
 
-        if(result.length < array[i].length){
-            result = array[i];
+            if (result.length < array[i].length) {
+                result = array[i];
+            }
         }
     }
-
     return result;
 }
 
-var friendList = ['jhankarmahbub', 'jamil', 'ashraful-mijan', 'shimul', 'monir'];
+var friendList = ['jhankarmahbub', 'ashraful-mijan', 'kajol', 'mousumi'];
 var input = megaFriend(friendList);
-// console.log(input);
+console.log(input);
